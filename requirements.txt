@@ -1,8 +1,12 @@
-awscli
 black
 flake8
 isort
 mkdocs
-pip
 python-dotenv
+numpy
+pandas
+scikit-learn
+joblib
+matplotlib
+seaborn
 -e .
