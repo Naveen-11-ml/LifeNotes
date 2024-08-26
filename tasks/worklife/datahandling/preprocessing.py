@@ -38,7 +38,6 @@ numerical_columns = [column for column in raw_data.columns\
                     column != 'WORK_LIFE_BALANCE_SCORE']
 raw_data.replace('1/1/00', 'Missing', inplace=True) # Clearing mislabeled data
 
-
 # Save processed data for training
 data = raw_data.copy()
 data.to_csv('data/processed/lifestyle.csv')
